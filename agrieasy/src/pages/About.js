@@ -10,7 +10,7 @@ const About = () => {
         </div>
         <div className="text-left px-5 w-1/2 bg-[#e4eae1] flex flex-col justify-center">
             <div className='flex border w-full'>
-            <h1 className="w-3/6 flex my-auto ml-12 text-5xl">About Us</h1>
+            <h1 className="w-3/6 flex my-auto ml-12 text-5xl font-medium">About Us</h1>
             <div className="w-96 h-80 bg-[url('https://images.unsplash.com/photo-1607931042288-0c82960d4afc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAwfHxmYXJtaW5nfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60')] bg-contain bg-no-repeat -skew-x-8"></div>
             </div>
             <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, dicta cupiditate? Repellat molestiae ex ut harum modi minima labore nisi saepe amet tempora, exercitationem nesciunt autem nostrum expedita consectetur enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis commodi esse alias nulla doloremque unde odit aut at. Assumenda harum quam inventore accusantium, autem explicabo fugit ab quo voluptatibus?</p>
