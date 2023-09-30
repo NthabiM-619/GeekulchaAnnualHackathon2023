@@ -30,7 +30,8 @@ const Services = () => {
         <img src="https://img.icons8.com/?size=100&id=Wyq9ckwhhDZB&format=gif" alt="" loading="" className="shadow-sm shadow-[#779867] rounded-full p-2" />
         <h3 className="ml-5">Service Two</h3>
       </div>
-      <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facere quia pariatur, repudiandae sed cumque eos quaerat ipsum necessitatibus assumenda porro quas labore beatae velit accusamus accusantium, dolor dignissimos sequi?</p>
+      <p className="">Users may be required to provide to provide their digital certifictes numbers for authentication. In that way no fault user can access private information.
+      Password- based authentications will be utilized everytime you sign-in to the app, to make sure we potect our potential users from attacks.</p>
     </div>
     </div>
 
