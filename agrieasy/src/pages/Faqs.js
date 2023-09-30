@@ -8,12 +8,12 @@ const Faqs = () => {
             <h2 className="mb-12 text-4xl font-medium text-[#779867] text-center sm:text-5xl">Frequently Asked Questions</h2>
             <div className="grid gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
                 <div>
-                    <h3 className="font-semibold text-[#779867]">Lorem ipsum dolor sit amet.</h3>
-                    <p className="mt-1 dark:text-[#000]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!</p>
+                    <h3 className="font-semibold text-[#779867]">How can I become a farmer?</h3>
+                    <p className="mt-1 dark:text-[#000]">Do I need a certificate in farming to start farming? Which institutions offer  qualifications in farming?Is there sponsors available if one wants to persue a career in farming?</p>
                 </div>
                 <div>
-                    <h3 className="font-semibold text-[#779867]">Lorem ipsum dolor sit amet.</h3>
-                    <p className="mt-1 dark:text-[#000]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, fugit? Aspernatur, ullam enim, odit eaque quia rerum ipsum voluptatem consequatur ratione, doloremque debitis? Fuga labore omnis minima, quisquam delectus culpa!</p>
+                    <h3 className="font-semibold text-[#779867]">How do I become a partner?</h3>
+                    <p className="mt-1 dark:text-[#000]">Do I need to have a farm to become a partner?, Are farmers clubs that on can engage with,to learn more about farmers lifestyle/</p>
                 </div>
                 <div>
                     <h3 className="font-semibold text-[#779867]">Lorem ipsum dolor sit amet.</h3>
