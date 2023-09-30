@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-<section className="py-8 border-t-[#e4eae1] border-t-2">
+<section className="py-8 border-t-[#e4eae1] border-t-2" id='Services'>
   <h1 className="text-center mt-2 mb-5 text-5xl text-[#779867]">Services Offered</h1>
   
   <div className="w-full flex justify-evenly gap-10 [&>*]:w-96">

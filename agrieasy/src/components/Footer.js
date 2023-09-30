@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer className="bg-[#e4eae1]">
-        <div className="container px-6 py-12 mx-auto">
+        <div className="container px-6 py-8 mx-auto">
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                 <div className="sm:col-span-2">
                     <h1 className="max-w-lg text-xl font-semibold tracking-tight text-[#779867] xl:text-2xl">Subscribe our newsletter to get update.</h1>
@@ -21,9 +21,9 @@ const Footer = () => {
                     <p className="font-semibold text-[#779867]">Quick Link</p>
 
                     <div className="flex flex-col items-start mt-5 space-y-2">
-                        <a href="#" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Home</a>
-                        <a href="#" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Who We Are</a>
-                        <a href="#" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Our Philosophy</a>
+                        <a href="#Home" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Home</a>
+                        <a href="#About" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">About</a>
+                        <a href="#Services" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Services</a>
                     </div>
                 </div>
 
@@ -31,22 +31,22 @@ const Footer = () => {
                     <p className="font-semibold text-[#779867]">Industries</p>
 
                     <div className="flex flex-col items-start mt-5 space-y-2">
-                        <a href="#" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Retail & E-Commerce</a>
-                        <a href="#" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Information Technology</a>
-                        <a href="#" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Finance & Insurance</a>
+                        <a href="#Retails" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Retail & E-Commerce</a>
+                        <a href="#Market" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Information Technology</a>
+                        <a href="#Profile" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Finance & Insurance</a>
                     </div>
                 </div>
             </div>
             
-            <hr className="my-6 border-[#779867] md:my-8">
+            <hr className="my-6 border-[#779867] md:my-8" />
             
             <div className="flex items-center justify-between">
-                <a href="#">
-                    <img className="h-7 border w-7 rounded-full" src="" alt="">
+                <a href="#Home">
+                    <img className="h-7 border w-7 rounded-full" src="" alt="" />
                 </a>
                 
                 <div className="flex -mx-2">
-                    <a href="#" className="mx-2 text-black transition-colors duration-300 hover:text-green-800 dark:hover:text-green-800" aria-label="Reddit">
+                    <a href="#Home" className="mx-2 text-black transition-colors duration-300 hover:text-green-800 dark:hover:text-green-800" aria-label="Reddit">
                         <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -55,7 +55,7 @@ const Footer = () => {
                         </svg>
                     </a>
 
-                    <a href="#" className="mx-2 text-black transition-colors duration-300 hover:text-green-800 dark:hover:text-green-800" aria-label="Facebook">
+                    <a href="#Home" className="mx-2 text-black transition-colors duration-300 hover:text-green-800 dark:hover:text-green-800" aria-label="Facebook">
                         <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -64,7 +64,7 @@ const Footer = () => {
                         </svg>
                     </a>
 
-                    <a href="#" className="mx-2 text-black transition-colors duration-300 hover:text-green-800 dark:hover:text-green-800" aria-label="Github">
+                    <a href="#Home" className="mx-2 text-black transition-colors duration-300 hover:text-green-800 dark:hover:text-green-800" aria-label="Github">
                         <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
