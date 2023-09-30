@@ -42,7 +42,7 @@ const Footer = () => {
             
             <div className="flex items-center justify-between">
                 <a href="#Home">
-                    <img className="h-7 border w-7 rounded-full" src="" alt="" />
+                    <span className='h-10 w-10 rounded-full text-center text-2xl'>🪴</span>
                 </a>
                 
                 <div className="flex -mx-2">
