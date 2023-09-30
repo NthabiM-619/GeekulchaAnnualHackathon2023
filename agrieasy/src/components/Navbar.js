@@ -11,7 +11,7 @@ const Navbar = () => {
 
         {/* menu items */}
         <ul className='list-none flex my-auto [&>*]:mx-6'>
-            <Link to='/'><a href='#Home' target='blank'>Home</a></Link>
+            <Link to='/'><a href='#' target='blank'>Home</a></Link>
             <li className='hover:text-[#aab18c]'><a href='#About' target='blank'>About</a></li>
             <li className='hover:text-[#aab18c]'><a href='#Services' target='blank'>Services</a></li>
             <li className='hover:text-[#aab18c]'><a href='#Faqs' target='blank'>FAQs</a></li>
