@@ -2,9 +2,9 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <header className="flex justify-center">
+    <header className="flex justify-center" id='Home'>
         <div className='text-center mt-36'>
-        <h1 className='text-9xl text-[#fbfaf9] '>AgriEase</h1>
+        <h1 className='text-9xl text-[#fbfaf9]'>AgriEase</h1>
         <blockquote className='text-md'>Made Easy....</blockquote>
         <p className='text-2xl mt-5'>Lorem jhbd w fj vfaebfhbemfbsejrf. erfjberjhgbs ejrfbjrhb g hserb gnerbhgbaef</p>
 
