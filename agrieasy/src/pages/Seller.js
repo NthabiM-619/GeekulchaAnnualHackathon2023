@@ -28,13 +28,13 @@ const Seller = () => {
 
   return (
     <section className="flex h-screen" id="seller">
-      <div className="grid grid-cols-2 gap-y-4 gap-x-2 border w-1/2 p-6">
-        <div className="bg-[url('https://images.unsplash.com/photo-1590682680695-43b964a3ae17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFybWVyfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60')] bg-right bg-no-repeat"></div>
-        <div className="bg-[url('https://media.istockphoto.com/id/547050036/photo/young-couple-in-love-holding-hands.webp?s=1024x1024&w=is&k=20&c=6Oj2FrQwNatsneaj-AcqauX5T2dIDwT4zznRf_SQKo8=')] bg-center bg-no-repeat"></div>
-      </div>
+      
+      <div
+        className="mt-8 w-full h-3/3 bg-[url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAyfHxmYXJtaW5nfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60')] bg-center bg-no-repeat"
+      ></div>
       <div className="grid place-items-center text-left px-4 w-1/2">
-        <h1 className="text-7xl mb-1">Join The Winning Team</h1>
-        <p className="text-2xl mt-10 mb-12">Register Your Friendly Neighborhood Business</p>
+        <h1 className="text-9xl text-[#0c0b08]">AgriEase</h1>
+        <p className="text-2xl text-[#0c0b08] mt-10 mb-12">Register Your Friendly Neighborhood Business</p>
         <form onSubmit={handleSubmit} className="mt-4">
           <div className="grid grid-cols-2 gap-4">
             <div className="mb-4">
