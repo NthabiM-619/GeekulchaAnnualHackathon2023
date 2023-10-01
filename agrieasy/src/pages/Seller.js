@@ -20,8 +20,8 @@ const Seller = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = () => {
+    alert(`Thank you, ${formData.firstNames}! Your form has been recieved.`)
     // Add logic to handle form submission, e.g., API call or data processing
     console.log('Form Data:', formData);
   };
@@ -30,12 +30,13 @@ const Seller = () => {
     <section className="flex h-screen" id="seller">
       
       <div
-        className="mt-8 w-full h-3/3 bg-[url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAyfHxmYXJtaW5nfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60')] bg-center bg-no-repeat"
+        className="mx-6 mt-8 w-3/6 h-3/3 bg-[url('https://images.unsplash.com/photo-1506484381205-f7945653044d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFybWVyJTIwc3RhbGx8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=800&q=60')] bg-center bg-no-repeat contrast-75"
       ></div>
-      <div className="grid place-items-center text-left px-4 w-1/2">
-        <h1 className="text-9xl text-[#0c0b08]">AgriEase</h1>
-        <p className="text-2xl text-[#0c0b08] mt-10 mb-12">Register Your Friendly Neighborhood Business</p>
-        <form onSubmit={handleSubmit} className="mt-4">
+      <div className="text-left px-4 w-3/6 h-3/6 m-auto py2 mx-8">
+        <h1 className="text-7xl text-[#0c0b08 font-medium">AgriEase 🪴 </h1>
+        <p className="text-2xl text-[#0c0b08] mt-4 mb-4">Let customers come to you!</p>
+        <span className='text-sm'>ℹ️ This registration process will be further explored through an email that will allow us to profile you before becoming a seller on the platform.</span>
+        <form onSubmit={handleSubmit} className="pt-10">
           <div className="grid grid-cols-2 gap-4">
             <div className="mb-4">
               <label htmlFor="firstNames" className="block text-gray-700 text-sm font-bold mb-2">
@@ -49,6 +50,7 @@ const Seller = () => {
                 onChange={handleChange}
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 required
+                placeholder='John Doe'
               />
             </div>
             <div className="mb-4">
@@ -56,13 +58,14 @@ const Seller = () => {
                 Business Location:
               </label>
               <input
-                type="text"
+                type="address"
                 id="businessLocation"
                 name="businessLocation"
                 value={formData.businessLocation}
                 onChange={handleChange}
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 required
+                placeholder='Gauteng, JHB'
               />
             </div>
 
@@ -78,11 +81,12 @@ const Seller = () => {
                 onChange={handleChange}
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 required
+                placeholder='One Person Companies, Sole Proprietorships, etc'
               />
             </div>
             <div className="mb-4">
               <label htmlFor="businessAddress" className="block text-gray-700 text-sm font-bold mb-2">
-                Business Address:
+                What Do You Want To Sell:
               </label>
               <input
                 type="text"
@@ -92,10 +96,11 @@ const Seller = () => {
                 onChange={handleChange}
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 required
+                placeholder='Vegetables, Fruits, Both?'
               />
             </div>
           </div>
-          <button type="submit" className="mt-2 bg-blue-400 text-white px-4 py-2 rounded-full">
+          <button type="submit" className="mt-6 bg-[#779867] text-white px-4 py-2 rounded-lg hover:bg-[#aab18c]">
             Submit
           </button>
         </form>
