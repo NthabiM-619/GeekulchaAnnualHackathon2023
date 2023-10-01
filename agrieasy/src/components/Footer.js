@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <p className="font-semibold text-[#779867]">Quick Link</p>
+                    <p className="font-semibold text-[#779867]">Quick Find</p>
 
                     <div className="flex flex-col items-start mt-5 space-y-2">
                         <a href="#Home" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Home</a>
@@ -28,12 +29,12 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <p className="font-semibold text-[#779867]">Industries</p>
+                    <p className="font-semibold text-[#779867]">Externals</p>
 
                     <div className="flex flex-col items-start mt-5 space-y-2">
-                        <a href="#Retails" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Retail & E-Commerce</a>
-                        <a href="#Market" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Information Technology</a>
-                        <a href="#Profile" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Finance & Insurance</a>
+                        <a href="#Retails" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Market Place</a>
+                        <a href="#Market" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Courses</a>
+                        <Link to="/seller"><a href="#just" className="text-black transition-colors duration-300 dark:hover:text-green-800 hover:underline hover:text-green-800">Selling?</a></Link>
                     </div>
                 </div>
             </div>

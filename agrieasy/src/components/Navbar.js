@@ -11,14 +11,14 @@ const Navbar = () => {
 
         {/* menu items */}
         <ul className='list-none flex my-auto [&>*]:mx-6'>
-            <Link to='/'><a href='#' target='blank'>Home</a></Link>
+            <Link to='/'><a href='#ref' target='blank'>Home</a></Link>
             <li className='hover:text-[#aab18c]'><a href='#About' target='blank'>About</a></li>
             <li className='hover:text-[#aab18c]'><a href='#Services' target='blank'>Services</a></li>
             <li className='hover:text-[#aab18c]'><a href='#Faqs' target='blank'>FAQs</a></li>
         </ul>
 
         {/* login btns (Buyer ? Seller) */}
-        <Link to="/seller"><button className='mt-2.5 rounded-xl px-4 py-3 border-[#779867] border-2'>Buyer</button></Link>
+        <Link to="/seller"><button className='rounded-xl px-4 py-3 border-[#779867] border-2'>I Want To Buy</button></Link>
     </nav>
   )
 }

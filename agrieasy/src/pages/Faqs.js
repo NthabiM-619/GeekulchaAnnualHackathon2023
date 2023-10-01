@@ -9,21 +9,19 @@ const Faqs = () => {
             <div className="grid gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
                 <div>
                     <h3 className="font-semibold text-[#779867]">How can I become a farmer?</h3>
-                    <p className="mt-1 dark:text-[#000]">Do I need a certificate in farming to start farming? Which institutions offer  qualifications in farming?Is there sponsors available if one wants to persue a career in farming?</p>
+                    <p className="mt-1 dark:text-[#000]">While a farming certificate can be beneficial, practical experience is often just as valuable. Agricultural colleges worldwide offer relevant qualifications, and numerous sponsorships and grants exist to support aspiring farmers in pursuing their careers.</p>
                 </div>
                 <div>
                     <h3 className="font-semibold text-[#779867]">How do I become a partner?</h3>
-                    <p className="mt-1 dark:text-[#000]">Do I need to have a farm to become a partner?, Are farmers clubs that on can engage with,to learn more about farmers lifestyle?</p>
+                    <p className="mt-1 dark:text-[#000]">Although this is primarly for targeted for farmers, you don't need a farm to be a partner in selling crops; many operate as intermediaries. Farmers' clubs are excellent for learning about the farming lifestyle, and apps connecting farmers to customers offer valuable platforms for such partnerships and insights.</p>
                 </div>
                 <div>
                     <h3 className="font-semibold text-[#779867]">What is farming and what are the different types of farming types?</h3>
-                    <p className="mt-1 dark:text-[#000]">What are the key duties of a farmer?,How do farmers know that the soil is fertile enough to be used to plant vegetables?,
-                    Is there a method or a measure of the fertility of the soil?</p>
+                    <p className="mt-1 dark:text-[#000]">Farming is cultivating land for food and resources. Types include subsistence, commercial, organic, intensive, extensive, mixed, vertical, aquaculture, agroforestry, and horticulture. Each serves different purposes and approaches in agriculture.</p>
                 </div>
                 <div>
                     <h3 className="font-semibold text-[#779867]">What are the problems faced by farmers in South Africa?</h3>
-                    <p className="mt-1 dark:text-[#000]">Does our communities support our local farmers? Is there enough women in farming?, Is our government supporting our farmers?, Are there
-                    enough resources allocated to support farmers in our country?</p>
+                    <p className="mt-1 dark:text-[#000]">South African farmers face challenges like land reform issues, water scarcity, climate change impacts, and economic pressures. Additionally, there are concerns about access to markets, agricultural education, and addressing social inequalities within the agricultural sector.</p>
                 </div>
             </div>
         </div>
