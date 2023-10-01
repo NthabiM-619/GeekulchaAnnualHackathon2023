@@ -2,8 +2,8 @@ import React from 'react'
 
 const Faqs = () => {
   return (
-    <section id='Faqs'>
-        <div className="container flex flex-col justify-center p-4 mx-auto md:p-4">
+    <section id='Faqs' className='pb-8'>
+        <div className="container flex flex-col justify-center pb-8 mx-auto md:p-4">
             <p className="p-2 text-sm font-medium text-center uppercase text-[#779867]">How it works</p>
             <h2 className="mb-12 text-4xl font-medium text-[#779867] text-center sm:text-5xl">Frequently Asked Questions</h2>
             <div className="grid gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
@@ -21,7 +21,7 @@ const Faqs = () => {
                     Is there a method or a measure of the fertility of the soil?</p>
                 </div>
                 <div>
-                    <h3 className="font-semibold text-[#779867]">What are the problems faced by farmers in Soth africa?</h3>
+                    <h3 className="font-semibold text-[#779867]">What are the problems faced by farmers in South Africa?</h3>
                     <p className="mt-1 dark:text-[#000]">Does our communities support our local farmers? Is there enough women in farming?, Is our government supporting our farmers?, Are there
                     enough resources allocated to support farmers in our country?</p>
                 </div>

@@ -5,12 +5,11 @@ const Hero = () => {
     <header className="flex justify-center" id='Home'>
         <div className='text-center mt-36'>
         <h1 className='text-9xl text-[#fbfaf9]'>AgriEase</h1>
-        <blockquote className='text-md'>Cultivating Ideas For Growth!</blockquote>
-        <p className='text-2xl mt-5'>Creating a transformative mobile App for Farmer</p>
+        <p className='text-3xl mt-5 text-[#e4eae1]'>Creating a transformative mobile App for Farmers</p>
 
-        <div className='flex w-full justify-center [&>*]:mx-16 [&>*]:w-32 text-white mt-20 [&>*]:p-4'>
-          <button className='border'>Agri Training</button>
-          <button className='border'>Seller</button>
+        <div className='flex w-full justify-center [&>*]:mx-16 [&>*]:w-32 text-white mt-20 [&>*]:p-2'>
+          <button className='border rounded-xl'>Become A Farmer</button>
+          <button className='bg-[#779867] text-white rounded-xl'>Seller</button>
         </div>
         </div>
     </header>
